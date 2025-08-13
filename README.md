@@ -1,11 +1,10 @@
-# PreMet: Predicting Metastasis sites from the transcriptomes of primary tumors
+# scMeta: Predicting Metastasis Potential at Single-cell Resolution
 
 ***
 
-![PreMet Model Overview](./PreMet_model.png)
+![scMeta Overview](./scMeta.png)
 
-PreMet is a variational autoencoder (VAE)-based deep learning model specifically designed for metastasis site prediction from transcriptomic profiles of primary tumors. The model employs a supervised latent representation learning framework, where the VAE's encoder maps input gene expression data into a lower-dimensional latent space, and two task-specific deep neural networks predict the primary tumor type and metastasis site. PreMet is trained using a one-vs-rest approach to handle significant class imbalance across metastasis site labels, with focal loss implemented for metastasis prediction to emphasize harder-to-classify samples. 
-
+scMeta is a graph transformer–based deep learning framework for predicting metastatic potential at single-cell resolution from transcriptomic data. It constructs a cell–cell graph based on transcriptional similarity, learns context-aware embeddings via attention-based message passing, and uses these embeddings for metastasis classification, biomarker prioritization, and pathway enrichment analysis.
 
 *** 
 ## Requirements 
@@ -16,27 +15,29 @@ Required packages:
 - [Matplotlib](https://matplotlib.org/stable/)
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [seaborn](https://seaborn.pydata.org/index.html)
+- [PyG](https://pytorch-geometric.readthedocs.io/en/latest/index.html)
 
 
-To directly create a Conda enviroment for PreMet, please run
+To directly create a Conda enviroment for scMeta, please run
 
 ```
 conda env create -f environment.yml
 ```
+
 ***
 
 ## Reproducibility:
 
-- [Data pre-processing](https://github.com/loooooooopi/PreMet/blob/main/Reproducibility/data_preprocessing.ipynb)
-- [Baseline model1: PreMet-DNN](https://github.com/loooooooopi/PreMet/blob/main/Reproducibility/Baseline1%20PreMet-DNN.ipynb)
-- [Baseline model2: PreMet-Multi](https://github.com/loooooooopi/PreMet/blob/main/Reproducibility/Baseline2%20PreMet-Multi.ipynb)
-- [PreMet-VAE (main model)](https://github.com/loooooooopi/PreMet/blob/main/Reproducibility/PreMet-VAE.ipynb)
-- [Gradient-based feature prioritization](https://github.com/loooooooopi/PreMet/blob/main/Reproducibility/Gradient-based%20feature%20selection%20and%20pathway%20analysis.ipynb)
+- [Data pre-processing](https://github.com/loooooooopi/scMeta/tree/master/Pre-processing)
+- [Baseline model1: scMeta-DNN](https://github.com/loooooooopi/scMeta/tree/master/Pre-processing)
+- [Baseline model2: scMeta-Multi](https://github.com/loooooooopi/scMeta/blob/main/Reproducibility/Baseline2%20scMeta-Multi.ipynb)
+- [scMeta-VAE (main model)](https://github.com/loooooooopi/scMeta/blob/main/Reproducibility/scMeta-VAE.ipynb)
+- [Gradient-based feature prioritization](https://github.com/loooooooopi/scMeta/blob/main/Reproducibility/Gradient-based%20feature%20selection%20and%20pathway%20analysis.ipynb)
 
-The trained best models were provided in [Reproducibility](https://github.com/loooooooopi/PreMet/blob/main/Reproducibility/) in tar.gz for each model.
+The trained best models were provided in [Reproducibility](https://github.com/loooooooopi/scMeta/blob/main/Reproducibility/) in tar.gz for each model.
 
 ***
 
 ## Train on new data and predict for new samples
 
-Tutorials are provided in: [train new model](https://github.com/loooooooopi/PreMet/blob/main/train_new_data.ipynb)
+Tutorials are provided in: [train new model](https://github.com/loooooooopi/scMeta/blob/main/train_new_data.ipynb)
