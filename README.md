@@ -10,21 +10,14 @@ scMeta is a graph transformer–based deep learning framework for predicting met
 ## Requirements 
 Required packages:
 - [Scanpy](https://scanpy.readthedocs.io/en/stable/)
-- [anndata](https://anndata.readthedocs.io/en/latest/)
+- [Anndata](https://anndata.readthedocs.io/en/latest/)
 - [Pytorch](https://pytorch.org/)
 - [Matplotlib](https://matplotlib.org/stable/)
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [seaborn](https://seaborn.pydata.org/index.html)
 - [PyG](https://pytorch-geometric.readthedocs.io/en/latest/index.html)
+- [Harmony](https://github.com/lilab-bcb/harmony-pytorch) (for integration only)
 
-
-To directly create a Conda enviroment for scMeta, please run
-
-```
-conda env create -f environment.yml
-```
-
-***
 
 ## Reproducibility:
 
