@@ -16,18 +16,19 @@ Required packages:
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [seaborn](https://seaborn.pydata.org/index.html)
 - [PyG](https://pytorch-geometric.readthedocs.io/en/latest/index.html)
-- [Harmony](https://github.com/lilab-bcb/harmony-pytorch) (for integration only)
-
+- [Harmony-Pytorch](https://github.com/lilab-bcb/harmony-pytorch) (for integration only)
 
 ## Reproducibility:
 
 - [Data pre-processing](https://github.com/loooooooopi/scMeta/tree/master/Pre-processing)
-- [Baseline model1: scMeta-DNN](https://github.com/loooooooopi/scMeta/tree/master/Pre-processing)
+  - The four Pre-processing notebooks contains all information for inidividual studies, including the source for raw data and annotations.
+  - Final integration of all datasets was in Integrate all data.ipynb.
+  - Note: The raw and processed data used in training scMeta and trained best models will be deposited to Zenodo soon.
+- [Baseline model](https://github.com/loooooooopi/scMeta/tree/master/Pre-processing)
 - [Baseline model2: scMeta-Multi](https://github.com/loooooooopi/scMeta/blob/main/Reproducibility/Baseline2%20scMeta-Multi.ipynb)
 - [scMeta-VAE (main model)](https://github.com/loooooooopi/scMeta/blob/main/Reproducibility/scMeta-VAE.ipynb)
 - [Gradient-based feature prioritization](https://github.com/loooooooopi/scMeta/blob/main/Reproducibility/Gradient-based%20feature%20selection%20and%20pathway%20analysis.ipynb)
 
-The trained best models were provided in [Reproducibility](https://github.com/loooooooopi/scMeta/blob/main/Reproducibility/) in tar.gz for each model.
 
 ***
 
