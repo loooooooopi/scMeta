@@ -26,7 +26,9 @@ Required packages:
   - Note: The raw and processed data used in training scMeta and trained best models will be deposited to Zenodo soon.
 - [Baseline model](https://github.com/loooooooopi/scMeta/blob/master/Reproducibility/baseline_models.ipynb)
   - This notebook contains the code for 5 fold CV and LOOCV using 3 classical machine learning models as baselines.
-- [scMeta (main model)](https://github.com/loooooooopi/scMeta/blob/main/Reproducibility/scMeta-VAE.ipynb)
+- [scMeta (main model)](https://github.com/loooooooopi/scMeta/tree/master/Reproducibility)
+  - 5 fold CV: https://github.com/loooooooopi/scMeta/blob/master/Reproducibility/scMeta_5foldCV.ipynb
+  - LOOCV: 
 - [Gradient-based feature prioritization](https://github.com/loooooooopi/scMeta/blob/main/Reproducibility/Gradient-based%20feature%20selection%20and%20pathway%20analysis.ipynb)
 
 
