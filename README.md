@@ -27,13 +27,13 @@ Required packages:
 - [Baseline model](https://github.com/loooooooopi/scMeta/blob/master/Reproducibility/baseline_models.ipynb)
   - This notebook contains the code for 5 fold CV and LOOCV using 3 classical machine learning models as baselines.
 - [scMeta (main model)](https://github.com/loooooooopi/scMeta/tree/master/Reproducibility)
-  - 5 fold CV: https://github.com/loooooooopi/scMeta/blob/master/Reproducibility/scMeta_5foldCV.ipynb
-  - LOOCV: 
-- [Gradient-based feature prioritization](https://github.com/loooooooopi/scMeta/blob/main/Reproducibility/Gradient-based%20feature%20selection%20and%20pathway%20analysis.ipynb)
+  - [5 fold CV notbook](https://github.com/loooooooopi/scMeta/blob/master/Reproducibility/scMeta_5foldCV.ipynb)
+  - [LOOCV notbook](https://github.com/loooooooopi/scMeta/blob/master/Reproducibility/scMeta_LOOCV.ipynb)
+- [Downstream analysis including feature priorization and pathway analysis](https://github.com/loooooooopi/scMeta/blob/master/Reproducibility/scMeta_downstream_analysis.ipynb)
 
 
 ***
 
 ## Train on new data and predict for new samples
 
-Tutorials are provided in: [train new model](https://github.com/loooooooopi/scMeta/blob/main/train_new_data.ipynb)
+Tutorials are provided in: [train new model](https://github.com/loooooooopi/scMeta/blob/master/train_scMeta.ipynb)
