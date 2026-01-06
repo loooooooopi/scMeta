@@ -7,16 +7,21 @@
 scMeta is a graph transformer–based deep learning framework for predicting metastatic potential at single-cell resolution from transcriptomic data. It constructs a cell–cell graph based on transcriptional similarity, learns context-aware embeddings via attention-based message passing, and uses these embeddings for metastasis classification, biomarker prioritization, and pathway enrichment analysis.
 
 *** 
+
 ## Requirements 
 Required packages:
-- [Scanpy](https://scanpy.readthedocs.io/en/stable/)
-- [Anndata](https://anndata.readthedocs.io/en/latest/)
-- [Pytorch](https://pytorch.org/)
-- [Matplotlib](https://matplotlib.org/stable/)
-- [scikit-learn](https://scikit-learn.org/stable/)
-- [seaborn](https://seaborn.pydata.org/index.html)
-- [PyG](https://pytorch-geometric.readthedocs.io/en/latest/index.html)
-- [Harmony-Pytorch](https://github.com/lilab-bcb/harmony-pytorch) (for integration only)
+- [Scanpy](https://scanpy.readthedocs.io/en/stable/) (1.9.6)
+- [Anndata](https://anndata.readthedocs.io/en/latest/) (0.9.2)
+- [Pytorch](https://pytorch.org/) (2.3.0+cu118)
+- [Matplotlib](https://matplotlib.org/stable/) (3.5.3)
+- [scikit-learn](https://scikit-learn.org/stable/) (1.3.0)
+- [seaborn](https://seaborn.pydata.org/index.html) (0.12.2)
+- [PyG](https://pytorch-geometric.readthedocs.io/en/latest/index.html) (2.6.1)
+- [Harmony-Pytorch](https://github.com/lilab-bcb/harmony-pytorch) (0.1.8) (for integration only)
+- [scVI](https://infercnvpy.readthedocs.io/en/latest/index.html) (1.4.0) (for integration only)
+- [infercnvpy](https://infercnvpy.readthedocs.io/en/latest/index.html) (0.6.1) (for pre-processing only)
+- CUDA version: 11.8
+
 
 ## Reproducibility:
 
