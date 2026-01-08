@@ -27,6 +27,7 @@ Required packages:
 
 - [Data pre-processing](https://github.com/loooooooopi/scMeta/tree/master/Pre-processing)
   - The four Pre-processing notebooks contains all information for inidividual studies, including the source for raw data and annotations.
+  - InferCNV was ran in a sperate notebook.
   - Final integration of all datasets was in Integrate all data.ipynb.
   - Note: The raw and processed data used in training scMeta and trained best models will be deposited to Zenodo soon.
 - [Baseline model](https://github.com/loooooooopi/scMeta/blob/master/Reproducibility/baseline_models.ipynb)
