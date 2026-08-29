@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.5714285714285714,0.4155844155844156,0.8333333333333333,0.8095238095238095,7,3,4,2,SGD,LOOCV,Maynard_Bivona_2020,944,"{'loss': 'log_loss', 'alpha': 0.001, 'penalty': 'l2', 'max_iter': 1000, 'random_state': 42}"

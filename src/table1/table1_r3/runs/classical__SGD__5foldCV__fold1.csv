@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.828125,0.8152821939586646,0.7842592592592593,0.5058584267040149,64,10,54,10,SGD,5foldCV,fold1,113629,"{'loss': 'log_loss', 'alpha': 0.001, 'penalty': 'l2', 'max_iter': 1000, 'random_state': 42}"

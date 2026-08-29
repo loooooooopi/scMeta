@@ -1,0 +1,5 @@
+tissue,n_cells,n_donors,false_positive_rate
+large intestine,1788,2,0.0050335570469798654
+lung,22779,4,0.01611133061152816
+mammary gland,18945,2,0.001583531274742676
+ovary,10,1,0.1

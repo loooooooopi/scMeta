@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.859375,0.8522127329192546,0.7631975867269986,0.5493917076756261,64,13,51,8,scMeta-GAT,5foldCV,fold3,80570,"conv=GATConv,hidden_dim=256,heads=4,dropout=0.3,tau=0.7,gamma=0.5,lr=0.0001,epochs=100,patience=15,eval=NeighborLoader[25,25]"

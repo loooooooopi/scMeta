@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.5714285714285714,0.4155844155844156,0.7083333333333334,0.6984126984126984,7,3,4,2,Logistic Regression,LOOCV,Maynard_Bivona_2020,944,"{'C': 1, 'penalty': 'l1', 'solver': 'saga', 'max_iter': 1000, 'random_state': 42}"

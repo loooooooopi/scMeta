@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.4146341463414634,0.4252386002120891,0.3564102564102564,0.540851748478854,41,26,15,31,SGD,LOOCV,MSK_SPECTRUM,198901,"{'loss': 'log_loss', 'alpha': 0.001, 'penalty': 'l2', 'max_iter': 1000, 'random_state': 42}"

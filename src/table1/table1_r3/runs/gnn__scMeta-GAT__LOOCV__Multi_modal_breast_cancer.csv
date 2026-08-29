@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.4,0.22857142857142856,0.8333333333333333,0.9166666666666665,5,3,2,0,scMeta-GAT,LOOCV,Multi_modal_breast_cancer,6867,"conv=GATConv,hidden_dim=256,heads=4,dropout=0.3,tau=0.7,gamma=0.5,lr=0.0001,epochs=100,patience=15,eval=NeighborLoader[25,25]"

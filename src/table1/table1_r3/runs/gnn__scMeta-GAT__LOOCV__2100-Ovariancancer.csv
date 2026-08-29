@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.2,0.06666666666666667,1.0,1.0,5,4,1,1,scMeta-GAT,LOOCV,2100-Ovariancancer,12994,"conv=GATConv,hidden_dim=256,heads=4,dropout=0.3,tau=0.7,gamma=0.5,lr=0.0001,epochs=100,patience=15,eval=NeighborLoader[25,25]"

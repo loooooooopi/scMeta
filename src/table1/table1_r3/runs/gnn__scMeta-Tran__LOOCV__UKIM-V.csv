@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.9411764705882353,0.9696969696969697,,,17,0,17,0,scMeta-Tran,LOOCV,UKIM-V,5882,"conv=TransformerConv,hidden_dim=256,heads=4,dropout=0.3,tau=0.7,gamma=0.5,lr=0.0001,epochs=100,patience=15,eval=NeighborLoader[25,25]"

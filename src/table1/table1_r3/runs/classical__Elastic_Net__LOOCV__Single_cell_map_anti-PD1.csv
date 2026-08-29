@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+1.0,1.0,,,42,0,42,0,Elastic Net,LOOCV,Single_cell_map_anti-PD1,60590,"{'C': 0.1, 'penalty': 'elasticnet', 'l1_ratio': 0.5, 'solver': 'saga', 'max_iter': 1000, 'random_state': 42}"

@@ -1,0 +1,61 @@
+scope,tissue,n_cells,n_donors,false_positive_rate
+A_matched_tissue,large intestine,1788,2,0.0050335570469798654
+A_matched_tissue,lung,22779,4,0.01562842969401642
+A_matched_tissue,mammary gland,18945,2,0.001266825019794141
+A_matched_tissue,ovary,10,1,0.1
+B_all_epithelium,anterior part of tongue,12350,4,0.0012955465587044534
+B_all_epithelium,anterior segment of eyeball,5065,1,0.0011846001974333662
+B_all_epithelium,ascending colon,3651,4,0.005751848808545604
+B_all_epithelium,bladder organ,27241,6,0.00914063360375904
+B_all_epithelium,buccal mucosa,12,1,0.0
+B_all_epithelium,cardiac atrium,4,1,0.0
+B_all_epithelium,cardiac ventricle,3,1,0.3333333333333333
+B_all_epithelium,chorioretinal region,9,1,0.0
+B_all_epithelium,conjunctiva,3615,1,0.0
+B_all_epithelium,cornea,3019,1,0.0
+B_all_epithelium,cortex of kidney,43,1,0.0
+B_all_epithelium,crista ampullaris,21,1,0.47619047619047616
+B_all_epithelium,duodenum,16441,4,0.0022504713825193113
+B_all_epithelium,endocrine pancreas,999,1,0.36436436436436437
+B_all_epithelium,endometrium,1495,2,0.20602006688963212
+B_all_epithelium,exocrine pancreas,7365,3,0.15736591989137813
+B_all_epithelium,eye,1628,3,0.012899262899262898
+B_all_epithelium,eyelid,1443,1,0.02564102564102564
+B_all_epithelium,heart,147,3,0.36054421768707484
+B_all_epithelium,heart right ventricle,2,1,0.0
+B_all_epithelium,ileum,8192,3,0.000732421875
+B_all_epithelium,jejunum,568,1,0.00528169014084507
+B_all_epithelium,kidney,9235,1,0.09214943151055766
+B_all_epithelium,lacrimal gland,1563,2,0.006397952655150352
+B_all_epithelium,large intestine,1788,2,0.0050335570469798654
+B_all_epithelium,left ovary,675,3,0.597037037037037
+B_all_epithelium,liver,8079,4,0.005941329372447085
+B_all_epithelium,lung,22779,4,0.01562842969401642
+B_all_epithelium,mammary gland,18945,2,0.001266825019794141
+B_all_epithelium,mucosa of stomach,997,2,0.04714142427281846
+B_all_epithelium,muscle of abdomen,19,5,0.10526315789473684
+B_all_epithelium,muscle of pelvic diaphragm,39,3,0.3333333333333333
+B_all_epithelium,myometrium,141,2,0.028368794326241134
+B_all_epithelium,ocular surface region,5,1,0.0
+B_all_epithelium,ovary,10,1,0.1
+B_all_epithelium,parotid gland,9505,3,0.05365597054182009
+B_all_epithelium,posterior part of tongue,17224,4,0.006270320483046911
+B_all_epithelium,posterior segment of eyeball,37,1,0.16216216216216217
+B_all_epithelium,prostate gland,14147,3,0.011945995617445394
+B_all_epithelium,right ovary,451,3,0.4811529933481153
+B_all_epithelium,sclera,302,1,0.0
+B_all_epithelium,sigmoid colon,4210,4,0.004513064133016627
+B_all_epithelium,skin of abdomen,18,3,0.0
+B_all_epithelium,skin of body,65,2,0.015384615384615385
+B_all_epithelium,skin of chest,55,3,0.0
+B_all_epithelium,small intestine,2701,2,0.006293965198074787
+B_all_epithelium,stomach,699,1,0.024320457796852647
+B_all_epithelium,stomach smooth muscle,1,1,0.0
+B_all_epithelium,sublingual gland,5312,2,0.0062123493975903615
+B_all_epithelium,submandibular gland,2851,2,0.00526131182041389
+B_all_epithelium,testis,67,1,0.26865671641791045
+B_all_epithelium,thymus,430,5,0.13488372093023257
+B_all_epithelium,tongue,162,1,0.0
+B_all_epithelium,trachea,11806,6,0.019989835676774523
+B_all_epithelium,uterus,103,1,0.04854368932038835
+B_all_epithelium,utricle of membranous labyrinth,298,2,0.2181208053691275

@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.8412698412698413,0.8158369408369408,0.8374125874125874,0.5651875901875902,63,11,52,8,Random Forest,5foldCV,fold4,73243,"{'n_estimators': 300, 'max_depth': None, 'random_state': 42, 'n_jobs': 4}"

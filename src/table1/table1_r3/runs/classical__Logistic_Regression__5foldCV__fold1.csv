@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.796875,0.7816971383147854,0.7759259259259259,0.476996154152718,64,10,54,10,Logistic Regression,5foldCV,fold1,113629,"{'C': 1, 'penalty': 'l1', 'solver': 'saga', 'max_iter': 1000, 'random_state': 42}"

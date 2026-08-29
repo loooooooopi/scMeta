@@ -1,0 +1,4 @@
+cancer_type,n_per_class,n_sig_terms_differential
+Breast Cancer,5399,0
+Lung Cancer,15153,4
+Ovarian Cancer,86682,0

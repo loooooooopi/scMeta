@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+1.0,1.0,,,7,0,7,0,SGD,LOOCV,2098-Colorectalcancer,8874,"{'loss': 'log_loss', 'alpha': 0.001, 'penalty': 'l2', 'max_iter': 1000, 'random_state': 42}"

@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+1.0,1.0,,,6,0,6,0,Logistic Regression,LOOCV,Zilionis_Klein_2019,1924,"{'C': 1, 'penalty': 'l1', 'solver': 'saga', 'max_iter': 1000, 'random_state': 42}"

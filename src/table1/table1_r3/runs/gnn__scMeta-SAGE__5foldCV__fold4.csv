@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.8253968253968254,0.8220710506424793,0.9300699300699301,0.7129659415544584,63,11,52,8,scMeta-SAGE,5foldCV,fold4,73243,"conv=SAGEConv,hidden_dim=256,heads=4,dropout=0.3,tau=0.7,gamma=0.5,lr=0.0001,epochs=100,patience=15,eval=NeighborLoader[25,25]"

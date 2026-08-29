@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.873015873015873,0.8612580834803057,0.826923076923077,0.5427445139401661,63,11,52,8,Elastic Net,5foldCV,fold4,73243,"{'C': 0.1, 'penalty': 'elasticnet', 'l1_ratio': 0.5, 'solver': 'saga', 'max_iter': 1000, 'random_state': 42}"

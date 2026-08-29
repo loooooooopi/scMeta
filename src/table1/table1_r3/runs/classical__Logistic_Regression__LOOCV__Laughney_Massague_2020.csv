@@ -1,0 +1,2 @@
+accuracy,f1,auroc,auprc,n_patients,n_pos_patients,n_neg_patients,n_heterogeneous_patients,model,scheme,split,n_val_cells,hyperparams
+0.7777777777777778,0.875,,,9,0,9,0,Logistic Regression,LOOCV,Laughney_Massague_2020,1390,"{'C': 1, 'penalty': 'l1', 'solver': 'saga', 'max_iter': 1000, 'random_state': 42}"

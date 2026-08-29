@@ -1,0 +1,46 @@
+Final_cancer_type,Final_tissue_backup,metastasis_label_old,metastasis_label_new,n_cells
+Breast Cancer,Axilla,Distant_Mets,Regional_Mets,15916
+Breast Cancer,Bone spine,Distant_Mets,Distant_Mets,3594
+Breast Cancer,Breast,Distant_Mets,No_Mets,4777
+Breast Cancer,Breast,No_Mets,No_Mets,178781
+Breast Cancer,Breast,Regional_Mets,No_Mets,216997
+Breast Cancer,Liver,Distant_Mets,Distant_Mets,93315
+Breast Cancer,Lung,Distant_Mets,Distant_Mets,1764
+Breast Cancer,Lymph node,Regional_Mets,Regional_Mets,69163
+Breast Cancer,Neck,Distant_Mets,Distant_Mets,9687
+Colorectal Cancer,Blood,Distant_Mets,Distant_Mets,19408
+Colorectal Cancer,Colon,Distant_Mets,No_Mets,68516
+Colorectal Cancer,Colon,No_Mets,No_Mets,189170
+Colorectal Cancer,Colon,Regional_Mets,No_Mets,88622
+Colorectal Cancer,Liver,Distant_Mets,Distant_Mets,80429
+Lung Cancer,Adrenal,Distant_Mets,Distant_Mets,6022
+Lung Cancer,Adrenal,No_Mets,Distant_Mets,578
+Lung Cancer,Axilla,Distant_Mets,Distant_Mets,6389
+Lung Cancer,Bone spine,Distant_Mets,Distant_Mets,1076
+Lung Cancer,Brain,Distant_Mets,Distant_Mets,23996
+Lung Cancer,Brain,Regional_Mets,Distant_Mets,742
+Lung Cancer,Liver,Distant_Mets,Distant_Mets,10927
+Lung Cancer,Lung,Distant_Mets,No_Mets,33555
+Lung Cancer,Lung,No_Mets,No_Mets,752075
+Lung Cancer,Lung,Regional_Mets,No_Mets,152047
+Lung Cancer,Lymph node,Distant_Mets,Regional_Mets,18051
+Lung Cancer,Lymph node,No_Mets,Regional_Mets,32208
+Lung Cancer,Lymph node,Regional_Mets,Regional_Mets,16901
+Lung Cancer,Pleural effusion,Distant_Mets,Distant_Mets,25273
+Ovarian Cancer,Ascites,Distant_Mets,Regional_Mets,50887
+Ovarian Cancer,Ascites,Regional_Mets,Regional_Mets,49793
+Ovarian Cancer,Bowel,Distant_Mets,Regional_Mets,52976
+Ovarian Cancer,Bowel,Regional_Mets,Regional_Mets,44145
+Ovarian Cancer,Omentum,Distant_Mets,Regional_Mets,104995
+Ovarian Cancer,Omentum,Regional_Mets,Regional_Mets,95882
+Ovarian Cancer,Other,Distant_Mets,Distant_Mets,6983
+Ovarian Cancer,Other,Regional_Mets,Distant_Mets,21248
+Ovarian Cancer,Ovarium,No_Mets,No_Mets,5861
+Ovarian Cancer,Ovarium,Regional_Mets,No_Mets,6123
+Ovarian Cancer,Ovary,Distant_Mets,No_Mets,201059
+Ovarian Cancer,Ovary,No_Mets,No_Mets,10586
+Ovarian Cancer,Ovary,Regional_Mets,No_Mets,111230
+Ovarian Cancer,Peritoneum,Distant_Mets,Regional_Mets,67681
+Ovarian Cancer,Peritoneum,Regional_Mets,Regional_Mets,46468
+Ovarian Cancer,Upper Quadrant,Distant_Mets,Regional_Mets,19089
+Ovarian Cancer,Upper Quadrant,Regional_Mets,Regional_Mets,26776
